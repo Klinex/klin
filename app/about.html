@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<main>
+    <div class="post4">
+      <div class="post1_2">
+        <h2 class="h2">
+          About
+        </h2>
+        <h1><hr color="#eeeeee" size="2px"></h1>
+        <section class="section">
+      <form class="form" action="" onsubmit="return validate();">
+         <p>First name
+         <input id="forma1" type="text" placeholder="First name" autofocus>
+         <p>Last name
+         <input id="forma2" type="text" placeholder="Last name">
+         <p>E-mail
+         <input id="forma3" type="email" name="form" placeholder="E-mail"></p>
+         <p>Phone
+         <input id="phone" type="text" name="form"  placeholder="+_(___) ___-__-__"></p>
+         <p>Date of Birth
+         <input id="date" type="text" name="form" placeholder="DD/MM/YYYY"></p>
+         Sex
+         <p class="sex"> <input name="form" type="radio" checked>    Male </p>
+         <p class="sex"> <input name="form" type="radio">    Female</p><br>
+         <button class="submit" type="submit">Submit</button>
+       </form>
+    </section>
+
+      </div>
+    </div>
+</main>
+{% endblock %}

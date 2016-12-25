@@ -1,0 +1,612 @@
+/*--------------------------MEDIA--------------------------------*/
+/*-----------------------------1440px------------------------------------*/
+@media (max-width: 1440px) {
+.header {
+  width: 480px;
+  height: 160px;
+ }
+ .logo {
+   padding-left: 20px;
+ }
+ .wrapper {
+   width: 952px;
+ }
+ .mounth {
+   padding-top: 50px;
+   font-size: 14px;
+ }
+ .text {
+   font-size: 17px;
+ }
+ .post1 {
+ padding-right: 5px;
+ padding-left: 0px;
+ }
+ .post1_1, .post2_1, .post3_1 {
+   padding: 0 80px;
+ }
+ .h {
+   font-size: 40px;
+ }
+ main {
+   padding: 0 20px;
+ }
+ .hashtag {
+ position: relative;
+ float: none;
+ bottom: 18px;
+ padding-right: 20px;
+ }
+ .hashtag a {
+   margin: 0 10px 0 0;
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.3);
+  }
+ .read {
+   margin: 0;
+   padding: 20px 0 35px 0;
+ }
+ .i_do_travel {
+   position: relative;
+   top: 20px;
+   left: 95px;
+ }
+ .i_do_observe {
+   position: relative;
+   top: 20px;
+   left: 90px;
+ }
+ .i_do_reflect {
+   position: relative;
+   top: 20px;
+   left: 90px;
+ }
+ .images {
+   width: 912px;
+   height: auto;
+ }
+ .comment_1 {
+   font-size: 25px;
+ }
+ .img {
+   float: left;
+ }
+ .comment {
+   font-size: 20px;
+ }
+ /*--------------------------2page---------------------------------------*/
+   .post1_2 {
+     padding: 0 60px;
+   }
+   .h2 {
+     margin: 0;
+     padding: 20px 0 30px 0;
+     font-size: 40px;
+   }
+   .send {
+     margin: 0;
+     padding: 45px 0;
+   }
+/*----------------------------Footer-----------------------------------------*/
+   .nav2 {
+     margin: 25px 0 40px 0;
+   }
+   .nav2 a{
+     padding-left:8px;
+     line-height: 30px;
+   }
+   .footer_text2 {
+     font-size: 13px;
+     margin: 0 111px;
+   }
+   .footer_text3 {
+     margin: 0 95px;
+   }
+   .hr1 {
+     margin: 40px auto;
+     width: 952px;
+   }
+   .hr2 {
+     margin: 40px 0 50px 35px;
+     width: 900px;
+   }
+}
+/*------------------------------768px------------------------------------*/
+@media (max-width: 768px) {
+  .sidebar1 {
+    padding-top: 155px;
+    padding-left: 40px;
+  }
+.header {
+  width: 480px;
+  height: 160px;
+ }
+ .nav {
+   display: none;
+ }
+ .poisk {
+   display: none;
+ }
+ .logo {
+   padding-left: 20px;
+ }
+ .wrapper {
+   width: 480px;
+   overflow-x: hidden;
+ }
+ .mounth {
+   padding-top: 30px;
+   font-size: 18px;
+ }
+ .text {
+   font-size: 18px;
+ }
+ .post1 {
+ padding-right: 5px;
+ padding-left: 0px;
+ }
+ .post1_1 {
+   padding: 0 0 0 15px;
+ }
+ .h {
+   font-size: 32px;
+ }
+ main {
+   padding: 0 20px;
+ }
+ .hashtag {
+ position: relative;
+ float: none;
+ bottom: 18px;
+ padding-right: 20px;
+ }
+ .hashtag a {
+   margin: 0 10px 0 0;
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.3);
+  }
+ .read {
+   margin: 0;
+   padding: 20px 0 35px 0;
+ }
+ .i_do_travel {
+   position: relative;
+   left: 5px;
+ }
+ .images {
+   width: 440px;
+   height: auto;
+ }
+ .i_do_observe {
+   position: relative;
+   left: auto;
+   bottom: 255px;
+ }
+ .post2_1 {
+ padding: 0 0 0 15px;
+ }
+ .comment_1 {
+   font-size: 21px;
+ }
+ .post3_1 {
+   padding: 0 0 0 15px;
+ }
+ .i_do_reflect {
+   position: relative;
+   left: auto;
+ }
+ .img {
+   float: none;
+   padding: 0 0 0 114px;
+ }
+ .comment {
+   font-size: 20px;
+ }
+ /*--------------------------2page---------------------------------------*/
+   .post1_2 {
+     padding: 0 15px;
+   }
+   .h2 {
+     margin: 0;
+     padding: 20px 0 30px 0;
+     font-size: 32px;
+   }
+   .form1, .form2, .form3, .form4 {
+     margin: 10px 0;
+     width: 350px;
+   }
+   .send {
+     margin: 0;
+     padding: 20px 0;
+   }
+/*----------------------------footer-----------------------------------------*/
+   .nav2 {
+     margin: 25px 0 40px 0;
+   }
+   .nav2 a{
+     padding-left:8px;
+     line-height: 30px;
+   }
+   .footer_text2 {
+     font-size: 13px;
+     margin: 0 70px;
+   }
+   .footer_text3 {
+     margin: 0 95px;
+   }
+   .hr1 {
+     margin: 20px auto;
+     width: 400px;
+   }
+   .hr2 {
+     margin: 20px 0 50px 60px;
+     width: 360px;
+   }
+   /*----------------------------------MENU------------------------------------*/
+   .sidebar {
+     position: absolute;
+     width: 250px;
+     height: 100%;
+     background: #242A4C;
+     color: #fff;
+     left: 605px;
+     z-index: 1;
+     display: none;
+     transition: all 0.3s;
+   }
+   .contenido {
+     position: absolute;
+     padding: 60px;
+     padding-left: 30px;
+     transition: all 0.3s;
+     left: 524px;
+     top: 20px;
+     z-index: 2;
+     display: block;
+     padding-right: 0px;
+     }
+     .abrir {
+       position: fixed;
+       display: block;
+     transform: translateX(-250px);
+       }
+}
+
+
+/*------------------------------480px------------------------------------*/
+@media (max-width: 480px) {
+  .sidebar1 {
+    padding-top: 155px;
+    padding-left: 40px;
+  }
+.header {
+  width: 480px;
+  height: 160px;
+ }
+ .nav {
+   display: none;
+ }
+ .poisk {
+   display: none;
+ }
+ .logo {
+   padding-left: 20px;
+ }
+ .wrapper {
+   width: 480px;
+   overflow-x: hidden;
+ }
+ .mounth {
+   padding-top: 30px;
+   font-size: 18px;
+ }
+ .text {
+   font-size: 18px;
+ }
+ .post1 {
+ padding-right: 5px;
+ padding-left: 0px;
+ }
+ .post1_1 {
+   padding: 0 0 0 15px;
+ }
+ .h {
+   font-size: 32px;
+ }
+ main {
+   padding: 0 20px;
+ }
+ .hashtag {
+ position: relative;
+ float: none;
+ bottom: 18px;
+ padding-right: 20px;
+ }
+ .hashtag a {
+   margin: 0 10px 0 0;
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.3);
+  }
+ .read {
+   margin: 0;
+   padding: 20px 0 35px 0;
+ }
+ .i_do_travel {
+   position: relative;
+   left: 5px;
+ }
+ .images {
+   width: 440px;
+   height: auto;
+ }
+ .i_do_observe {
+   position: relative;
+   left: auto;
+   bottom: 255px;
+ }
+ .post2_1 {
+ padding: 0 0 0 15px;
+ }
+ .comment_1 {
+   font-size: 21px;
+ }
+ .post3_1 {
+   padding: 0 0 0 15px;
+ }
+ .i_do_reflect {
+   position: relative;
+   left: auto;
+ }
+ .img {
+   float: none;
+   padding: 0 0 0 114px;
+ }
+ .comment {
+   font-size: 20px;
+ }
+ /*--------------------------2page---------------------------------------*/
+   .post1_2 {
+     padding: 0 15px;
+   }
+   .h2 {
+     margin: 0;
+     padding: 20px 0 30px 0;
+     font-size: 32px;
+   }
+   .form1, .form2, .form3, .form4 {
+     margin: 10px 0;
+     width: 350px;
+   }
+   .send {
+     margin: 0;
+     padding: 20px 0;
+   }
+/*----------------------------footer-----------------------------------------*/
+   .nav2 {
+     margin: 25px 0 40px 0;
+   }
+   .nav2 a{
+     padding-left:8px;
+     line-height: 30px;
+   }
+   .footer_text2 {
+     font-size: 13px;
+     margin: 0 70px;
+   }
+   .footer_text3 {
+     margin: 0 95px;
+   }
+   .hr1 {
+     margin: 20px auto;
+     width: 400px;
+   }
+   .hr2 {
+     margin: 20px 0 50px 60px;
+     width: 360px;
+   }
+   /*----------------------------------MENU------------------------------------*/
+   .sidebar {
+     position: absolute;
+     width: 250px;
+     height: 100%;
+     background: #242A4C;
+     color: #fff;
+     left: 480px;
+     z-index: 1;
+     display: none;
+     transition: all 0.3s;
+   }
+   .contenido {
+     position: absolute;
+     padding: 60px;
+     padding-left: 30px;
+     transition: all 0.3s;
+     left: 390px;
+     top: 20px;
+     z-index: 2;
+     display: block;
+     padding-right: 0px;
+     }
+     .abrir {
+       position: fixed;
+       display: block;
+     transform: translateX(-250px);
+       }
+}
+
+/*------------------------------320px-------------------------------------*/
+@media (max-width: 320px) {
+  .wrapper {
+    overflow-x: hidden;
+  }
+  .header {
+    width: 320px;
+    height: 160px;
+  }
+  .nav {
+    display: none;
+  }
+  .poisk {
+    display: none;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+  .wrapper {
+    width: 320px;
+  }
+  .mounth {
+    padding-top: 30px;
+    font-size: 15px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .post1 {
+  padding-right: 5px;
+  padding-left: 0px;
+  }
+  .post1_1 {
+    padding: 0 0 0 15px;
+  }
+  .h {
+    font-size: 27px;
+  }
+  main {
+    padding: 0 20px;
+  }
+  .hashtag {
+  position: relative;
+  float: none;
+  bottom: 18px;
+  padding-right: 20px;
+  }
+  .hashtag a {
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.3);
+   }
+  .read {
+    margin: 0;
+    padding: 20px 0 35px 0;
+  }
+  .i_do_travel {
+    position: relative;
+    left: 5px;
+  }
+  .images {
+    width: 280px;
+    height: auto;
+  }
+  .i_do_observe {
+    position: relative;
+    left: auto;
+    bottom: 166px;
+  }
+  .post2_1 {
+  padding: 0 0 0 15px;
+  }
+  .comment_1 {
+    font-size: 18px;
+  }
+  .post3_1 {
+    padding: 0 0 0 15px;
+  }
+  .i_do_reflect {
+    position: relative;
+    left: auto;
+  }
+  .img {
+    float: none;
+    padding: 0 0 0 30px;
+  }
+  .comment {
+    font-size: 20px;
+  }
+  /*--------------------------2page---------------------------------------*/
+    .post1_2 {
+      padding: 0 0 0 15px;
+    }
+    .h2 {
+      margin: 0;
+      padding: 20px 0 30px 0;
+      font-size: 24px;
+    }
+    .form1, .form2, .form3, .form4 {
+      margin: 10px 0;
+      width: auto;
+    }
+    .send {
+      margin: 0;
+      padding: 20px 0;
+    }
+/*----------------------------footer-----------------------------------------*/
+  .nav2 {
+    margin: 25px 0 40px 0;
+  }
+  .nav2 a{
+    display: block;
+    padding: 0;
+    line-height: 30px;
+  }
+  .footer_text2 {
+    font-size: 13px;
+    margin: 0 30px;
+  }
+  .footer_text3 {
+    margin: 0 45px;
+  }
+  .hr1 {
+    margin: 20px auto;
+    width: 280px;
+  }
+  .hr2 {
+    margin: 20px 0 50px 30px;
+    width: 250px;
+  }
+
+/*----------------------------------MENU------------------------------------*/
+.sidebar {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background: #242A4C;
+  color: #fff;
+  left: 321px;
+  z-index: 1;
+  display: none;
+  transition: all 0.3s;
+}
+.contenido {
+  position: absolute;
+  padding: 60px;
+  padding-left: 30px;
+  transition: all 0.3s;
+  left: 231px;
+  top: 20px;
+  z-index: 2;
+  display: block;
+  padding-right: 0px;
+  }
+  .abrir {
+    position: fixed;
+    display: block;
+    transition: all 0.3s;
+    transform: translateX(-250px);
+    }
+    .form {
+      width: 252px;
+    }
+    #forma1, #forma2, #forma3, #phone, #date {
+      font-size: 18px;
+      float: left;
+      font-family: LatoRegular, sans-serif;
+      height: 55px;
+      margin: 10px 15px 15px 0;
+      padding: 0 30px;
+      width: 190px;
+      border: 0px;
+      background: #F7F9FC;
+      color: #A9A9A9;
+  }
+}

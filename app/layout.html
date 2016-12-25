@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PaloAlto</title>
+    <link rel="shortcut icon" href="images/ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/css/vendor.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Palo Alto, 7bits courses 2016-2017">
+    <meta name="Keywords" content="content, 7bits, Омск, 7 bits, contact, HTML, META, пало, пало алто, PaloAlto, Palo Alto">
+  </head>
+  <body>
+    <div class="wrapper">
+    <!--Скрытое меню!-->
+      <div class="sidebar">
+        <div class="se">
+          <form action="">
+           <input type="text" id="ses" placeholder="SEARCH">
+         </form>
+          <img src="images/searchwt.png" alt="search"/>
+        </div>
+      	<ul>
+      		<hr color="#333958">
+      		<li><a href="index.html">HOME</a></li>
+          <li> <a href="about.html">ABOUT</a></li>
+          <li> <a href="#">ARCHIVE</a></li>
+          <li><a href="contacts.html">CONTACT</a></li>
+        </ul>
+        <div class="sidebar1">
+          <p class="p">Palo Alto</p>
+          <p class="p2">Designed & Developed by PixelBuddha Team</p>
+        </div>
+      </div>
+
+      <div class="contenido">
+      	 <img src="images/menu.png" alt="" class="menu-bar">
+      </div>
+	   <!--Скрытое меню!-->
+      <header>
+        <div class="logo">
+          <a href="index.html"><img srcset="images/logo.png 1x, images/ritlogo@2x.png 2x" alt="logo" /></a>
+        </div>
+        <div class="nav">
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="#">ARCHIVE</a>
+          <a href="contacts.html">CONTACT</a>
+        </div>
+        <div class="poisk">
+            <a href="#" class="rollover"></a>
+        </div>
+      </header>
+
+
+    {% block main %}
+    {% endblock %}
+
+   </div>
+   <footer>
+  <div class="footer">
+  <div class="footer_text">  <a href="index.html"><img src="images/logo2.png" alt="logo" /></a></div>
+    <div class="nav2">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="#">ARCHIVE</a>
+      <a href="contacts.html">CONTACT</a>
+      <a href="#"><img src="images/searchwt.png" alt="search"/></a>
+     </div>
+       <hr class="hr1" color="#5765B5">
+    <p class="footer_text2">
+     Nunc placerat dolor at lectus hendrerit dignissim.
+     Ut tortor sem, consectetur nec hendrerit ut, ullamcorper ac odio.
+     Donec viverra ligula at quam tincidunt imperdiet.
+     Nulla mattis tincidunt auctor.</p>
+        <hr class="hr2" color="#5765B5">
+       <p class="footer_text3">
+         2015 - Palo Alto. All Rights Reserved.
+         Designed & Developed by <font color="#fffffff" face="LatoBold">
+           <a href="#">PixelBuddha Team</a></font></p>
+       <div class="follow">
+         <a href="#"><img src="images/facebook.png" alt="facebook" /></a>
+         <a href="#"><img src="images/tw.png" alt="twitter" /></a>
+         <a href="#"><img src="images/inst.png" alt="inst" /></a>
+         <a href="#"><img src="images/pi.png" alt="pi" /></a>
+       </div>
+    </div>
+
+  </footer>
+    <script src="scripts/jquery-3.1.1.js"></script>
+    <script src="http://mozilla.github.io/nunjucks/files/nunjucks.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+    <script src="scripts/about.js"></script>
+    <script src="scripts/menu.js"></script>
+  </body>
+</html>
