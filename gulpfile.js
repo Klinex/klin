@@ -17,6 +17,7 @@ var path = {
     },
     font: 'app/fonts/**/*',
     img: 'app/images/*',
+    partials: 'app/partials/*.html',
     dist: {
       css:  'dist/css/',
       js: 'dist/scripts/',
@@ -24,7 +25,8 @@ var path = {
       vendor: 'dist/vendor/css/',
       font: 'dist/fonts',
       img: 'dist/images/',
-      mock: 'dist/mockapi/'
+      mock: 'dist/mockapi/',
+      partials: 'dist/partials/'
     }
 };
 
@@ -48,7 +50,7 @@ gulp.task('css-min', function () {
     .pipe(autoprefixer({
         browsers: ['last 4 versions']
     }))
-    .pipe(concat('style.min.css'))
+    .pipe(concat('style.css'))
     .pipe(cssmin())
     .pipe(gulp.dest(path.dist.css));
 });
@@ -62,6 +64,11 @@ gulp.task('js-min', function () {
   return gulp.src(path.js)
     .pipe(uglify())
     .pipe(gulp.dest(path.dist.js));
+});
+
+gulp.task('partials', function () {
+  return gulp.src(path.partials)
+    .pipe(gulp.dest(path.dist.partials));
 });
 
 gulp.task('html', function () {
@@ -100,8 +107,8 @@ gulp.task('font', function () {
 });
 
 
-gulp.task('build', ['clean', 'html', 'css', 'js', 'vendor-css', 'img', 'mock', 'font']);
-gulp.task('prod', ['clean', 'html', 'css-min', 'js-min', 'vendor-css-min', 'img', 'mock', 'font']);
+gulp.task('build', ['clean', 'html', 'css', 'js', 'vendor-css', 'img', 'mock', 'font', 'partials']);
+gulp.task('prod', ['clean', 'html', 'css-min', 'js-min', 'vendor-css-min', 'img', 'mock', 'font', 'partials']);
 
 gulp.task('watch', function () {
   gulp.watch(path.css, ['css']);
@@ -111,6 +118,7 @@ gulp.task('watch', function () {
   gulp.watch(path.img, ['img']);
   gulp.watch(path.mock, ['mock']);
   gulp.watch(path.font, ['font']);
+  gulp.watch(path.partials, ['partials']);
 });
 
 gulp.task('serve', ['watch'], function() {

@@ -6,3 +6,47 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 59px 98px 40px 98px;
 }
+.h2 {
+  font-family: LatoBold, sans-serif;
+  line-height: 50px;
+  margin: 0 0 50px 0;
+  padding: 20px 0 20px 0;
+  font-size: 40px;
+  color: #000000;
+}
+.section {
+  font-size: 18px;
+  font-family: LatoRegular, sans-serif;
+  width: 350px;
+  margin: 0 auto;
+}
+#forma1, #forma2, #forma3, #phone, #date {
+  font-size: 18px;
+  float: left;
+  font-family: LatoRegular, sans-serif;
+  height: 55px;
+  margin: 10px 15px 15px 0;
+  padding: 0 30px;
+  width: 306px;
+  border: 0px;
+  background: #F7F9FC;
+  color: #A9A9A9;
+}
+.sex {
+  color: #A9A9A9;
+}
+.submit {
+  text-align: center;
+  height: 50px;
+  width: 155px;
+  margin-bottom: 40px;
+  font-family: LatoBold, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  border: 2px solid #5c6bc0;
+  background: #5c6bc0;
+}
+.submit:active {
+  color: #5c6bc0;
+  border: 1px solid #5c6bc0;
+}

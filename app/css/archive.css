@@ -1,0 +1,7 @@
+.main-clearfix {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+background: #ffffff;
+}
+.js-articles {
+  padding: 59px 98px 6px 98px;
+}
